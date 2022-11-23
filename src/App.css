@@ -75,7 +75,7 @@ h3 {
   border-right: 1px solid #ddd;
 }
 
-.tabnav li a:before {
+.tabnav li button:before {
   content: "";
   position: absolute;
   left: 0;
@@ -84,15 +84,15 @@ h3 {
   height: 3px;
 }
 
-.tabnav li a.active:before {
+.tabnav li button.active:before {
   background: #7ea21e;
 }
 
-.tabnav li a.active {
+.tabnav li button.active {
   border-bottom: 1px solid #fff;
 }
 
-.tabnav li a {
+.tabnav li button {
   position: relative;
   display: block;
   background: #f8f8f8;
@@ -103,8 +103,8 @@ h3 {
   font-size: 16px;
 }
 
-.tabnav li a:hover,
-.tabnav li a.active {
+.tabnav li button:hover,
+.tabnav li button.active {
   background: #fff;
   color: #7ea21e;
 }
@@ -135,4 +135,8 @@ h3 {
   white-space: pre-wrap;
   word-break: break-all;
   min-width: 0px;
+}
+
+.wrap-margin {
+  margin: 5%;
 }
